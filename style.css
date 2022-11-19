@@ -1,0 +1,109 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    }
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #bac5dd;
+      }
+      .container{
+        margin-right: 5%;
+        margin-left: 5%;
+        background: lightgray;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #5473b4
+      }
+      .topnav-centered a {
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);}
+      
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 90px;
+        text-decoration: none;
+        font-size: 17px;}
+        
+        .topnav-submenu{
+            display: none;
+        }
+        .topnav-submenu1{
+            display: block;
+        }
+    
+        .topnav a:hover {
+          
+          font-weight: 800;
+            background-color: #ddd;
+          color: black;
+          
+          
+        }
+        
+        .topnav a.active {
+          background-color:#5473b4;
+          color: white;
+        }
+        .header{
+            background: url('picture1.jpg') center center;    
+            height: 550px;
+        }
+        .header h1{
+            color: whitesmoke;
+            font-size: 2.5cm;
+            text-align: center;
+            padding-top: 2em;
+        
+           
+        }
+        .box{
+          margin-right: 5%;
+          margin-left: 5%;
+          background: lightgray;
+    
+    
+        }
+        .box-img{
+          width: 49.99999999%
+          
+        }
+        .bal{
+          float: left;
+         
+    
+        }
+        .jobb{
+          float: right;
+    
+        }
+       .szov1{
+          width: 49%.99;
+          padding: 80px;
+        }
+        .szov2{
+          width: 49%.99;
+          padding: 100px;
+        }
+        .footer{
+          text-align: center;
+          padding: 80px;
+          background: white;
+    
+        }
+        @media (max-width:700px){
+            .topnav-submenu{
+                position: relative;
+            }
+        }
+    
